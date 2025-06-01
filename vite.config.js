@@ -4,5 +4,6 @@ export default defineConfig({
     server: {
         open: true,
     },
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    base: 'https://rbarbosa51.github.io/read-image-js'
 })
